@@ -70,7 +70,13 @@ const logo = document.querySelector('.logo');
 
 openMenu.addEventListener('click', () => {
   nav.style.transform = 'translateX(0%)';
+  openMenu.style.display = 'none';
+  closeMenu.style.display = 'block';
+  logo.style.display = 'none';
 });
 closeMenu.addEventListener('click', () => {
   nav.style.transform = 'translateX(100%)';
+  openMenu.style.display = 'block';
+  closeMenu.style.display = 'none';
+  logo.style.display = 'block';
 });

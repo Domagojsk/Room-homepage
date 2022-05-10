@@ -131,6 +131,9 @@ aside {
     @include m.respond(large) {
       font-size: 2.8rem;
     }
+    @include m.respond(small) {
+      font-size: 2.5rem;
+    }
   }
 
   p {
@@ -168,6 +171,9 @@ aside {
   p {
     width: 70%;
     align-self: center;
+    @include m.respond(small) {
+      min-width: 75%;
+    }
   }
 
   .arrow-img {
@@ -255,6 +261,9 @@ section {
     width: 80%;
     @include m.respond(large) {
       width: 90%;
+    }
+    @include m.respond(small) {
+      width: 75%;
     }
   }
 
