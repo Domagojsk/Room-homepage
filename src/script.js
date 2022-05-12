@@ -33,7 +33,7 @@ const heroSlide = () => {
 
   const updateBackground = () => {
     heroImg.style.backgroundImage = `url(${data[currentPage].image}`;
-    // heroImg.style.transition = "background-image 2s";
+  
     heroHeader.innerHTML = data[currentPage].header;
 
     heroParagraph.innerHTML = data[currentPage].paragraph;
